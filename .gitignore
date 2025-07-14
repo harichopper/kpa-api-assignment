@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+dist/
+build/
+env/
+venv/
+ENV/
+*.env
+*.sqlite3
+
+# VS Code
+.vscode/
+
+# macOS / Linux / Windows
+.DS_Store
+Thumbs.db
+
+# Virtual environments
+.venv/
+.env/
+.env.*  # .env.example should NOT be ignored if you want to share the template
+
+# Uvicorn logs
+*.log
+
+# Database files (if any local cache)
+*.db
+
+# Pytest cache
+.pytest_cache/
