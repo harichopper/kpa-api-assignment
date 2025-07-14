@@ -1,0 +1,27 @@
+{
+  "info": {
+    "name": "KPA_form data",
+    "_postman_id": "uuid-string",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Create Form",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"name\": \"string\", \"email\": \"string\"}"
+        },
+        "url": {
+          "raw": "http://127.0.0.1:8000/form/create",
+          "protocol": "http",
+          "host": ["127.0.0.1"],
+          "port": "8000",
+          "path": ["form", "create"]
+        }
+      }
+    }
+  ]
+}
